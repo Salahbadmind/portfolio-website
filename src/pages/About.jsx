@@ -57,10 +57,10 @@ const About = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-lg text-gray-600 dark:text-gray-300 mb-6"
               >
-                I'm a passionate full-stack developer with over 3 years of experience creating 
+                I'm a passionate UI/UX and Web Developer with experience creating 
                 digital solutions that make a real impact. My journey in tech started with a 
                 curiosity about how websites work, and it has evolved into a career dedicated 
-                to building exceptional user experiences.
+                to building exceptional user experiences and beautiful interfaces.
               </motion.p>
               
               <motion.p

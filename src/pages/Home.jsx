@@ -30,7 +30,7 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
             >
-              Full-Stack Developer & UI/UX Designer
+              UI/UX and Web Developer
             </motion.p>
             
             <motion.p

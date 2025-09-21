@@ -49,8 +49,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com'
+      value: 'sbouragbi5@gmail.com',
+      link: 'mailto:sbouragbi5@gmail.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
@@ -148,7 +148,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 dark:border-dark-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-dark-700 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-400"
-                    placeholder="your.email@example.com"
+                    placeholder="sbouragbi5@gmail.com"
                   />
                 </div>
 
@@ -317,7 +317,7 @@ const Contact = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:sbouragbi5@gmail.com"
                 className="btn-primary inline-flex items-center"
               >
                 <Mail className="mr-2 w-5 h-5" />

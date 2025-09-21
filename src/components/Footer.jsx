@@ -20,7 +20,7 @@ const Footer = () => {
       { name: 'GitHub', href: 'https://github.com/yourusername', icon: <Github className="w-5 h-5" /> },
       { name: 'LinkedIn', href: 'https://linkedin.com/in/yourusername', icon: <Linkedin className="w-5 h-5" /> },
       { name: 'Twitter', href: 'https://twitter.com/yourusername', icon: <Twitter className="w-5 h-5" /> },
-      { name: 'Email', href: 'mailto:your.email@example.com', icon: <Mail className="w-5 h-5" /> }
+      { name: 'Email', href: 'mailto:sbouragbi5@gmail.com', icon: <Mail className="w-5 h-5" /> }
     ]
   }
 

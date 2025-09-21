@@ -61,8 +61,8 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
-      value: 'San Francisco, CA',
-      link: 'https://maps.google.com/?q=San+Francisco,+CA'
+      value: 'El Mahder, Batna, Algeria',
+      link: 'https://maps.google.com/?q=El+Mahder,+Batna,+Algeria'
     }
   ]
 

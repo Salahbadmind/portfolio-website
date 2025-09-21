@@ -257,7 +257,7 @@ const About = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <div className="flex items-center text-gray-600 dark:text-gray-300">
                 <MapPin className="w-5 h-5 mr-2" />
-                <span>San Francisco, CA</span>
+                <span>El Mahder, Batna, Algeria</span>
               </div>
               <div className="flex items-center text-gray-600 dark:text-gray-300">
                 <Calendar className="w-5 h-5 mr-2" />

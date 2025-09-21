@@ -40,7 +40,7 @@ const Footer = () => {
             >
               <h3 className="text-2xl font-bold mb-4">
                 <span className="bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent">
-                  Your Name
+                  Bouragbi Salah Eddine
                 </span>
               </h3>
               <p className="text-gray-300 mb-6 max-w-md">

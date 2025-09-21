@@ -9,7 +9,7 @@ const Projects = () => {
       description: 'A full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-      githubUrl: 'https://github.com/yourusername/ecommerce-platform',
+      githubUrl: 'https://github.com/Salahbadmind/ecommerce-platform',
       liveUrl: 'https://ecommerce-demo.netlify.app',
       status: 'Completed',
       date: '2023',
@@ -21,7 +21,7 @@ const Projects = () => {
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with modern web technologies.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2339&q=80',
       technologies: ['Vue.js', 'Express.js', 'Socket.io', 'PostgreSQL', 'Vuetify'],
-      githubUrl: 'https://github.com/yourusername/task-manager',
+      githubUrl: 'https://github.com/Salahbadmind/task-manager',
       liveUrl: 'https://taskmanager-demo.netlify.app',
       status: 'Completed',
       date: '2023',
@@ -33,7 +33,7 @@ const Projects = () => {
       description: 'A responsive weather dashboard that displays current weather conditions and forecasts for multiple cities. Features interactive maps and detailed weather analytics.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
       technologies: ['React', 'TypeScript', 'Chart.js', 'OpenWeather API', 'Material-UI'],
-      githubUrl: 'https://github.com/yourusername/weather-dashboard',
+      githubUrl: 'https://github.com/Salahbadmind/weather-dashboard',
       liveUrl: 'https://weather-demo.netlify.app',
       status: 'Completed',
       date: '2022',
@@ -45,7 +45,7 @@ const Projects = () => {
       description: 'A comprehensive analytics platform for social media managers to track engagement, analyze content performance, and generate detailed reports across multiple platforms.',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80',
       technologies: ['Next.js', 'Python', 'Django', 'Redis', 'D3.js'],
-      githubUrl: 'https://github.com/yourusername/social-analytics',
+      githubUrl: 'https://github.com/Salahbadmind/social-analytics',
       liveUrl: 'https://social-analytics-demo.netlify.app',
       status: 'In Progress',
       date: '2024',
@@ -224,7 +224,7 @@ const Projects = () => {
                 Get In Touch
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Salahbadmind"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary inline-flex items-center"

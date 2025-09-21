@@ -18,7 +18,7 @@ const Footer = () => {
     ],
     social: [
       { name: 'GitHub', href: 'https://github.com/Salahbadmind', icon: <Github className="w-5 h-5" /> },
-      { name: 'LinkedIn', href: 'https://linkedin.com/in/yourusername', icon: <Linkedin className="w-5 h-5" /> },
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/in/salah-eddine-bouragbi-837b13181/', icon: <Linkedin className="w-5 h-5" /> },
       { name: 'Twitter', href: 'https://twitter.com/yourusername', icon: <Twitter className="w-5 h-5" /> },
       { name: 'Email', href: 'mailto:sbouragbi5@gmail.com', icon: <Mail className="w-5 h-5" /> }
     ]

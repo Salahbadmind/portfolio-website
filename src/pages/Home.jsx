@@ -81,7 +81,7 @@ const Home = () => {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/salah-eddine-bouragbi-837b13181/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-gray-100 dark:bg-dark-800 hover:bg-primary-100 dark:hover:bg-primary-900/20 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200"

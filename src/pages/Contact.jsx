@@ -55,8 +55,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+213 667189164',
+      link: 'tel:+213667189164'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -323,10 +323,10 @@ const Contact = () => {
                 <Mail className="mr-2 w-5 h-5" />
                 Send Email
               </a>
-              <a
-                href="tel:+15551234567"
-                className="btn-secondary inline-flex items-center"
-              >
+                <a
+                  href="tel:+213667189164"
+                  className="btn-secondary inline-flex items-center"
+                >
                 <Phone className="mr-2 w-5 h-5" />
                 Call Now
               </a>

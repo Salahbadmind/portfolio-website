@@ -20,8 +20,7 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6"
             >
-              Hi, I'm{' '}
-              <span className="bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent">Bouragbi Salah Eddine</span>
+              Hi, I'm Bouragbi Salah Eddine
             </motion.h1>
             
             <motion.p

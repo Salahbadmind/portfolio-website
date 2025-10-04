@@ -1,6 +1,7 @@
-import { motion } from 'framer-motion'
-import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion';
+import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import myPhoto from '../assets/myphoto.jpg'; // <-- Make sure this path is correct!
 
 const Home = () => {
   return (
@@ -14,6 +15,14 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto"
           >
+            {/* Profile Photo */}
+            <img
+              src={myPhoto}
+              alt="Salah Bouragbi"
+              className="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover"
+            />
+
+            {/* Name */}
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -22,7 +31,18 @@ const Home = () => {
             >
               Hi, I'm Bouragbi Salah Eddine
             </motion.h1>
-            
+
+            {/* Contact Info */}
+            <div className="flex flex-col items-center mb-4">
+              <a href="mailto:sbouragbi5@gmail.com" className="text-blue-500 hover:underline">
+                sbouragbi5@gmail.com
+              </a>
+              <span className="mt-1 text-gray-600 dark:text-gray-300">
+                0667189164
+              </span>
+            </div>
+
+            {/* Professional Title */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -31,7 +51,8 @@ const Home = () => {
             >
               UI/UX and Web Developer
             </motion.p>
-            
+
+            {/* Short Bio */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -40,7 +61,8 @@ const Home = () => {
             >
               I create beautiful, functional, and user-centered digital experiences that bring ideas to life.
             </motion.p>
-            
+
+            {/* Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -54,7 +76,6 @@ const Home = () => {
                 View My Work
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
               </Link>
-              
               <Link
                 to="/contact"
                 className="btn-secondary inline-flex items-center"
@@ -62,7 +83,7 @@ const Home = () => {
                 Get In Touch
               </Link>
             </motion.div>
-            
+
             {/* Social Links */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -116,8 +137,8 @@ const Home = () => {
               About Me
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-              I'm a passionate developer with over 3 years of experience creating digital solutions 
-              that make a difference. I specialize in React, Node.js, and modern web technologies, 
+              I'm a passionate developer with over 3 years of experience creating digital solutions
+              that make a difference. I specialize in React, Node.js, and modern web technologies,
               always striving to write clean, efficient code and create exceptional user experiences.
             </p>
             <Link
@@ -148,7 +169,7 @@ const Home = () => {
               I bring ideas to life through code, creating digital experiences that are both beautiful and functional.
             </p>
           </motion.div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
@@ -191,4 +212,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
